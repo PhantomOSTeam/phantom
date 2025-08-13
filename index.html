@@ -3,14 +3,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="PhantomTeam - Innovative solutions for the digital world" />
-    <title>PhantomTeam</title>
+    <meta name="description" content="PhantomOS Game Studio - Creators of Puffland Adventure" />
+    <title>PhantomOS - Puffland Adventure</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: #0d0d0d;
@@ -26,7 +22,7 @@
             border-bottom: 1px solid #222;
         }
         header h1 {
-            color: #00ffcc;
+            color: #ff66cc;
             font-size: 1.8rem;
             letter-spacing: 1px;
         }
@@ -38,18 +34,18 @@
             transition: color 0.3s;
         }
         nav a:hover {
-            color: #00ffcc;
+            color: #ff66cc;
         }
         .hero {
             text-align: center;
             padding: 4rem 2rem;
             background: linear-gradient(180deg, rgba(0,0,0,0.6), rgba(0,0,0,0.9)),
-                        url('https://via.placeholder.com/1500x600?text=PhantomTeam+Hero+Image') center/cover no-repeat;
+                        url('assets/puffland-hero.jpg') center/cover no-repeat;
         }
         .hero h2 {
             font-size: 2.5rem;
             margin-bottom: 1rem;
-            color: #00ffcc;
+            color: #ff66cc;
         }
         .hero p {
             font-size: 1.2rem;
@@ -75,7 +71,7 @@
         }
         .card h3 {
             margin-bottom: 1rem;
-            color: #00ffcc;
+            color: #ff66cc;
         }
         .card p {
             color: #bbb;
@@ -88,41 +84,56 @@
             color: #666;
             font-size: 0.9rem;
         }
+        .download-btn {
+            display: inline-block;
+            margin-top: 1.5rem;
+            padding: 0.8rem 1.5rem;
+            background-color: #ff66cc;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .download-btn:hover {
+            background-color: #ff4db2;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>PhantomTeam</h1>
+        <h1>PhantomOS</h1>
         <nav>
             <a href="#">Home</a>
-            <a href="#">Services</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+            <a href="#game">Puffland Adventure</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
-    <section class="hero">
-        <h2>Innovative Solutions for the Digital World</h2>
-        <p>At PhantomTeam, we combine creativity and technology to deliver exceptional digital products and experiences.</p>
+    <section class="hero" id="game">
+        <h2>Puffland Adventure</h2>
+        <p>Embark on a magical match-3 journey in Puffland! Solve puzzles, collect adorable characters, and explore a world full of fun.</p>
+        <a href="#" class="download-btn">Download Now</a>
     </section>
 
     <main>
         <div class="card">
-            <h3>Web Development</h3>
-            <p>We build fast, responsive, and modern websites tailored to your needs.</p>
+            <h3>About the Game</h3>
+            <p>Puffland Adventure is a vibrant match-3 puzzle game where each level brings new challenges and rewards.</p>
         </div>
         <div class="card">
-            <h3>App Design</h3>
-            <p>Our apps are designed with user experience and performance in mind.</p>
+            <h3>Our Vision</h3>
+            <p>At PhantomOS, we craft games that are both entertaining and visually stunning, built for players worldwide.</p>
         </div>
         <div class="card">
-            <h3>Consulting</h3>
-            <p>We help businesses navigate the ever-changing tech landscape with expert advice.</p>
+            <h3>Play Anywhere</h3>
+            <p>Puffland Adventure is available on mobile and desktop, letting you play anytime, anywhere.</p>
         </div>
     </main>
 
-    <footer>
-        &copy; 2025 PhantomTeam. All rights reserved.
+    <footer id="about">
+        &copy; 2025 PhantomOS - Creators of Puffland Adventure. All rights reserved.
     </footer>
 </body>
 </html>
